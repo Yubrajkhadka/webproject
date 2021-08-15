@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Help</title>
+        <link rel="stylesheet" href="project1.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="faq" id="faq">
+            <h1>Frequently Asked Question(FAQS)</h1>
+            <div class="accordion">
+              <div class="icon">+</div>
+                <h5>How many different types of art are available?</h5>
+              
+            </div>
+            <div class="pannel">
+              <p>In our website there are mainly 4 types of the arts are available.
+                  Drawing, Sketch, Painting and Mandala.
+            </p>
+            </div>
+            <div class= "accordion">
+                <div class ="icon">+</div>
+                 <h5>How to contact Art and Collectibles?</h5>
+            </div>
+                <div class="pannel">
+                    <p>
+                 You can contact the seller through our social media sites or you can also leave us a message.
+                 Or At the very footer section you can find all the alternatives for contacting our shop. 
+                    </p>
+                </div>
+            <div class="accordion">
+              <div class="icon">+</div>
+                <h5>What type of payment system is available ?  </h5>
+              
+            </div>
+            <div class="pannel">
+              <p>
+                  You can pay using visa card or Esewa.
+            </p>
+            </div>
+            
+            <div class="accordion">
+              <div class="icon">+ </div>
+                <h5>How do I delete my order?</h5>
+             
+            </div>
+            <div class="pannel">
+              <p>
+                You'll have to visit your cart to find all of your orders. Somewhere near your orders you'll find the 'remove', that when clicked your order will be deleted.
+            </p>
+            </div>
+            <div class="accordion">
+              <div class="icon">+ </div>
+                <h5>What features do you want?</h5>
+             
+            </div>
+            <div class="pannel">
+              <p>Sometimes the client wants everything incorporated into a single website — every single idea. 
+                But, sometimes, that would mean that the site would be cluttered, 
+                and potential customers would not have a good experience.
+            </p>
+            </div>
+            <div class="accordion">
+              <div class="icon">+ </div>
+                <h5>Read more about us?</h5>
+             
+            </div>
+            <div class="pannel">
+              <p> You can see separate 'About' page at the top-right header. In this page you can find all about us and the members associated.
+            </p>
+            </div>
+            <div class="accordion">
+              <div class="icon">+ </div>
+                <h5>You have problem shopping or dont know how to ?</h5>
+             
+            </div>
+            <div class="pannel">
+              <p>Here in the very page we have included a section called 'How to Shop' on the left hand side column. You can click on that to know about placing an order.
+                Or <details>
+                <summary> <a href="shop.html"> Click here to know about it</a></summary>
+                </details> 
+            </p>
+            </div>
+            <div class="accordion">
+              <div class="icon">+ </div>
+                <h5>How to cancel an order?</h5>
+             
+            </div>
+            <div class="pannel">
+              <p>In Progress
+            </p>
+            </div>
+          </div>
+       
+          <script type="text/javascript">
+        
+var acc = document.getElementsByClassName('accordion')
+var i;
+var len = acc.length;
+for(i=0; i<len; i++)
+{
+   acc[i].addEventListener('click' , function(){
+       this.classList.toggle('active');
+       var pannel = this.nextElementSibling;
+       if(pannel.style.maxHeight){
+           pannel.style.maxHeight = null;
+       }else
+       {
+           pannel.style.maxHeight = pannel.scrollHeight + 'px';
+       }
+
+   })
+
+   
+
+}
+        </script>
+        
+    </body>
+</html>

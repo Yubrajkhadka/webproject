@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <title>Payment</title>
+        <link rel="stylesheet" href="project1.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <body>
+    
+        <div class= "payment">
+            <h2>Payment</h2>
+            <form method ="POST" action="mycart.html">
+                <h4>Account</h4>
+                <div class="form">
+                    <div class="input-box">
+                        <input type ="text" placeholder="Full Name" required class="name">
+                        <i class = "fa fa-user icon"></i>
+                    </div>
+                        
+                    <div class="input-box">
+                        <input type ="email" placeholder="Email Address" required class="name">
+                        <i class = "fa fa-envelope icon"></i>
+                    </div>
+            
+                    <div class="input-box">
+                        <h4>Date of Birth</h4>
+                        <input type ="text" placeholder="DD"  class="dob">
+                        <input type ="text" placeholder="MM"  class="dob">
+                        <input type ="text" placeholder="YYYY"  class="dob">
+
+                    </div>
+                    <div class="input-box">
+                        <h4>Gender</h4>
+                        <input type ="radio" id ="b1" name ="gender"  class ="radio">
+                        <label for ="b1">Male</label>
+
+                        <input type ="radio" id ="b2" name ="gender"  class ="radio">
+                        <label for ="b2">Female</label>
+                                        </div>
+                
+                    <div class = "input-box">
+                        <h4>Payment Details</h4>
+                      <input type ="radio" name ="pay" id="bc1" class ="radio">
+                        <label for ="bc1">Credit Card</label>
+                        <input type ="radio" name ="pay" id="bc2" class ="radio">
+                        <label for ="bc2">Esewa</label>
+                    </div>
+              <br/>
+                    <div class ="input-box">
+                      <input type="tel" placeholder="Card Number" required class = "name">
+                      <i class = "fa fa-credit-card icon"></i>
+                    </div>
+               
+                    <div class ="input-box">
+                        <input type = "tel" placeholder ="Card CVC" required class ="name">
+                         <i class = "fa fa-user icon"></i>
+                    </div>
+                    <div class ="input-box">
+                        Expiry Date
+                        <input type = "date" id="date"> 
+                
+                    </div>  
+                        
+                  <input type = "submit" ></input>                    
+                </div>
+            </form>
+            <a href ="mycart.html"><input type ="submit" class="back" value="Cancel"></input></a>
+
+        </div>
+        
+    </body>
+</html>             
